@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="tab_background_selected">#000000</color>
+    <color name="tab_background_unselected">#000000</color>
+    <color name="colorBackground">#000000</color>
+    <color name="button_pre">#af000000</color>
+    <color name="button_foc">#af000000</color>
+    <color name="button_def">#00a6ff</color>
+</resources>

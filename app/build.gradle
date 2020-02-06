@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "com.raccoon.infinityarts"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 108
+        versionName "1.08"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    repositories {
+        maven {
+
+            url "https://jitpack.io"
+        }
+        mavenCentral()
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.android.support:support-v4:26.1.0'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.google.android.gms:play-services-ads:15.0.0'
+    compile 'com.muddzdev:styleabletoast:1.0.9'
+    compile 'com.android.support.constraint:constraint-layout:1.1.0'
+
+    testCompile 'junit:junit:4.12'
+
+    //Paralax
+    compile 'com.yayandroid:ParallaxRecyclerView:1.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
+    //check new update
+    compile 'com.github.javiersantos:AppUpdater:2.6.3'
+
+    //rate the app
+    compile 'com.github.hotchemi:android-rate:1.0.1'
+
+    //google play billing library
+    compile 'com.android.billingclient:billing:1.0'
+
+
+    implementation 'com.google.firebase:firebase-core:16.0.0'
+    compile "com.google.firebase:firebase-messaging:17.0.0"
+
+}
+apply plugin: 'com.google.gms.google-services'

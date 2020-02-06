@@ -1,0 +1,84 @@
+<resources>
+
+    <string name="app_name">Infinity Arts</string>
+
+    <!-- * * * CONSTANT NAMES SHOULD NOT BE CHANGED * * * -->
+    <string name="endpoint_for_avengers">http://marvel.geekart.club/avengers.json</string>
+    <string name="endpoint_for_others">http://marvel.geekart.club/others.json</string>
+    <string name="endpoint_for_villains">http://marvel.geekart.club/villains.json</string>
+    <string name="endpoint_search">http://marvel.geekart.club/Categories/Characters.json</string>
+    <string name="MY_PREFS_NAME">Advertisement</string>
+    <string name="banner_and_interstitial_is_active">banner_and_interstitial_is_active</string>
+    <string name="InterstitialID">ca-app-pub-4555379069643946/8803846730</string>
+    <string name="SKU_PREMIUM">com.raccoon.infinityarts.removeads</string>
+    <string name="base64EncodedPublicKey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkFlIMjXttipM7FmbVJJI4q1oTkB2ciFp+7LrDQpY156CHmA6nUWlzbBdm3MX1D0kUltJIF1Z4IJg0GRtiVI4/lt7o9xiphOxHrnPZfPdTPwdLx3XKTD0jK1HZekw9C7IHGk9mDDYOqPZSGcSpdutt4DLbvHkmuq2RUyNyn4f7xwDsH++yGJ0oNhu6y1SmYuR64lUj9ZbKqSuiz/Vht5NAuI6uycK5o4hQIkATTIfcNxamVHOKZlm/WbY6DoVHXheb3OSoDvB5Z6uHckx33xH/7OyYkbsSrRJo9KzSkv4xyFp9EoELeWLfFKNDCluBashZZIBJWEG0MiVPmeuIcDA5QIDAQAB</string>
+    <string name="website_link">http://marvel.geekart.club/</string>
+    <string name="facebook_link">http://geekart.club/social_link_infinity.html</string>
+    <!-- * * * * * * -->
+
+    <!--Library rate the app text-->
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
+
+    <!--Navigation drawer menu list names-->
+    <string name="classic_4">Main sides</string>
+    <string name="categories">Categories</string>
+    <string name="about">About</string>
+    <string name="social">Social</string>
+    <string name="facebook">Facebook</string>
+    <string name="website">Website</string>
+    <string name="rate_us">Rate us</string>
+
+    <!--menu dashborad.xml-->
+    <string name="search">Search</string>
+
+    <!--fragment_about all text-->
+
+    <!--alert dialog messages -->
+    <string name="server_error">Problems with the server</string>
+    <string name="server_error_des">Can not connect to the server, please try again later!</string>
+    <string name="server_error_pos_bt">Ok</string>
+    <string name="internet_error">Can not connect to the Internet</string>
+    <string name="internet_error_des">No Internet connection!</string>
+    <string name="internet_error_reload_bt">reload</string>
+    <string name="internet_error_exit_bt">exit</string>
+
+    <!--DrawerActivity java class-->
+    <string name="title_classic4">Main sides</string>
+    <string name="on_back_pressed">Press Back again to Exit</string>
+    <string name="title_categories">Categories</string>
+    <string name="title_about">About</string>
+    <string name="remove_ads">Remove ads</string>
+    <string name="additions">Additions</string>
+    <string name="message_purchased">Already purchased</string>
+
+    <!--SlideshowDialogFragment java class-->
+    <string name="time_out_error">Time out, check Your internet connection</string>
+    <string name="storage_error">Storage permission is not granted</string>
+    <string name="wallpaper_set">Wallpaper is set</string>
+    <string name="saved_folder">Saved in the folder Infinity Arts</string>
+
+    <!--Search Fragment-->
+    <string name="nothing_found">Nothing found on Your request!\n\nNote: Please, use only latin characters A~Z</string>
+
+
+
+
+    <!-- * * * NO NEED TO TRANSLATE BUT DON'T DELETE * * * -->
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_network_gallery">NetworkGalleryActivity</string>
+    <string name="title_activity_sd_card_gallery">SdCardGalleryActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="title_activity_each_category">EachCategory</string>
+    <!-- * * * NO NEED TO TRANSLATE BUT DON'T DELETE * * * -->
+
+</resources>

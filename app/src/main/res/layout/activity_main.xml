@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="#000000">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:id="@+id/search_coordinator"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="com.raccoon.infinityarts.fragments.AllActivitiesInOne"
+        android:background="#000000">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:background="#e6dada"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:id="@+id/use_only_latin_id"
+            android:visibility="invisible"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/nothing_found"/>
+
+        <include layout="@layout/content_main" />
+    </android.support.design.widget.CoordinatorLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/banner"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        ads:adSize = "BANNER"
+        ads:adUnitId = "ca-app-pub-4555379069643946/5485340835"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        >
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

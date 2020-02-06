@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_classic"
+            android:icon="@drawable/classic_icon"
+            android:title= "@string/classic_4" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/categories_icon"
+            android:title="@string/categories" />
+
+    </group>
+
+    <item android:title="@string/additions">
+        <menu>
+            <item
+                android:id="@+id/remove_ads"
+                android:title="@string/remove_ads"
+                android:icon="@drawable/remove_ads_icon"
+                />
+        </menu>
+    </item>
+
+    <item android:title="@string/social">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook_icon"
+                android:title="@string/facebook" />
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/website_background"
+                android:title="@string/website" />
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/rate_us_icon"
+                android:title="@string/rate_us" />
+        </menu>
+    </item>
+
+</menu>

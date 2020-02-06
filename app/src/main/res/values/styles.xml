@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#000000</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <!-- Used for the background -->
+        <item name="android:background">#1a1a1a</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+
+    <style name="CustomTextStyle" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="MyToast">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        only bold!
+        <item name="android:colorBackground">#ffffff</item>
+        <item name="android:radius">10dp</item>
+        radius for corners of the toast shape
+        <item name="android:alpha">255</item>
+        value between 0-255 where 255 is full solid
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AudioFileInfoOverlayText">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1.7</item>
+        <item name="android:shadowDy">1.7</item>
+        <item name="android:shadowRadius">2.5</item>
+    </style>
+
+</resources>

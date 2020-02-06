@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "275864672761",
+    "firebase_url": "https://infinity-arts-102cd.firebaseio.com",
+    "project_id": "infinity-arts-102cd",
+    "storage_bucket": "infinity-arts-102cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275864672761:android:a7e8f69114d5725f",
+        "android_client_info": {
+          "package_name": "com.raccoon.infinityarts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275864672761-ktbvvqaps0ktdn4c29ifefupege5msr2.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "275864672761-ktbvvqaps0ktdn4c29ifefupege5msr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOI-D4-U_ZUmazEldVEt1FSjhFqo3S1ho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
